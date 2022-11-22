@@ -6,12 +6,12 @@
   "type": "module",
   "scripts": {
     "start": "node backend/server",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
-    "data:destroy": "node backend/seeder -d",
-    "postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
+    "data:destroy": "node backend/seeder -d"
   },
   "author": "Slakie",
   "license": "MIT",
