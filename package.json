@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node backend/server",
-    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node --prefix ./backend/server.js",
+    "build": "npm --prefix ./frontend/ install && npm --prefix ./frontend/ run build",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
