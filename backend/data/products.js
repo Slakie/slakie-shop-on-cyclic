@@ -1,0 +1,136 @@
+const products = [
+  {
+    name: 'AirPods Pro Wireless Bluetooth Headphones',
+    image: '/images/AirPodsPro.jpg',
+    description:
+      'use the H1 processor found in second generation AirPods, but add active noise cancellation, transparency mode, automated frequency profile setting, IPX4 water resistance, a charging case with wireless charging, and interchangeable silicone tips.',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 249.99,
+    countInStock: 15,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'iPhone 12 Pro 128GB Memory',
+    image: '/images/iPhone12ProMax.jpg',
+    description:
+      "The iPhone 12 Pro is the larger of two pro-level phones in Apple's 2020 iPhone lineup. It has a glass and stainless-steel design with flat edges. The camera system is best-in-class with better stabilization and larger sensors.",
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 1499.99,
+    countInStock: 7,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Apple Watch 6 Aluminium Case (44mm)',
+    image: '/images/AppleWatch6.jpg',
+    description:
+      'offers faster charging, completing a full charge in under 1.5 hours, and improved battery life for tracking certain workouts, such as indoor and outdoor runs.',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 499.99,
+    countInStock: 9,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Sony PlayStation 5 Console',
+    image: '/images/SonyPlayStation5.jpg',
+    description:
+      'main features include a solid-state drive customized for high-speed data streaming to enable significant improvements in storage performance, an AMD GPU capable of 4K resolution display at up to 120 frames per second, hardware-accelerated ray tracing for realistic lighting and reflections, the Tempest Engine allowing for hardware-accelerated 3D audio effects, and backward compatibility with most PlayStation 4 and PlayStation VR games.',
+    brand: 'Sony',
+    category: 'Electronics',
+    price: 799.99,
+    countInStock: 20,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Logitech G502 Wireless Gaming Mouse',
+    image: '/images/LogitechG502.jpg',
+    description:
+      "employs Logitech's new signature Wi-Fi wireless technology, also called Lightspeed, which allows for sub-millisecond lag. ... In short, the Lightspeed allows you peace of mind around all the issues that using a wireless mouse normally adds to your PC setup",
+    brand: 'Logitech',
+    category: 'Electronics',
+    price: 119.99,
+    countInStock: 27,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Canon EOS 200D Camera',
+    image: '/images/CanonEOS200D.jpg',
+    description:
+      'The Canon EOS 200D, known as the EOS Rebel SL2 in the Americas and EOS Kiss X9 in Japan, is a 24.2-megapixel digital single-lens reflex camera made by Canon.',
+    brand: 'Canon',
+    category: 'Electronics',
+    price: 549.99,
+    countInStock: 4,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'GoPro HERO 9 Action Camera',
+    image: '/images/GoProHERO9.jpg',
+    description:
+      "The first standout feature in the Hero 9 is the 23.6-megapixel sensor. That's quite a jump from the predecessor's 12-megapixel sensor. More megapixels means the Hero 9 Black can shoot 5K video and snap 20-megapixel still images.",
+    brand: 'GoPro',
+    category: 'Electronics',
+    price: 499.99,
+    countInStock: 0,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Sony WH-1000XM4 Headphones',
+    image: '/images/SonyWH-1000XM4.jpg',
+    description:
+      "are rocking Bluetooth 5.0, have Bluetooth multipoint, and support SBC, AAC, and Sony's own LDAC, which has the highest streaming quality possible if you're willing to deal with a somewhat less-stable connection.",
+    brand: 'Sony',
+    category: 'Electronics',
+    price: 319.99,
+    countInStock: 10,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Apple MacBook Air (M1, 2020)',
+    image: '/images/MacBookAirM1.jpg',
+    description:
+      'is completely transformed by the power of Apple-designed M1 chip. ... Small chip. ... Touch ID fills in your shipping and billing information without sharing your card details. ... Testing conducted by Apple in October 2020 using preproduction 13-inch MacBook Pro systems with Apple M1 chip and 16GB of RAM.',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 2499.99,
+    countInStock: 3,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Canon PIXMA TS5150 3-in-1 Printer',
+    image: '/images/CanonPIXMATS5150.jpg',
+    description:
+      'Connect to smart devices via range of options including Bluetooth for easy Wi-Fi print and scan via Canon PRINT app. Versatile and cost effective, this printer enables you to print more pages for your money using the cost effective optional XL inks. ... Automatic duplex (double sided) printing. 100 sheet paper capacity.',
+    brand: 'Canon',
+    category: 'Electronics',
+    price: 199.99,
+    countInStock: 23,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'FIMI Xiaomi X8 SE 2020 Quadcopter',
+    image: '/images/FimiX8SE2020.jpg',
+    description:
+      'The FIMI X8 SE 2020 is an aerodynamic foldable drone equipped with intelligent control, wireless communication and other advanced technology which are necessary to realize functions like long-distance remote control, intelligent flight, precise landing, etc. ... The remote controller fits iPad Mini at the maximum range.',
+    brand: 'Xiaomi',
+    category: 'Electronics',
+    price: 449.99,
+    countInStock: 5,
+    rating: 0,
+    numReviews: 0,
+  },
+];
+
+export default products;
